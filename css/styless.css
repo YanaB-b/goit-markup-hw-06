@@ -72,7 +72,7 @@ html{
 }
 .conteiner{
     width: 1200px;
-    outline: 5px solid tomato;
+    /* outline: 5px solid tomato; */
     padding-left: 15px;
     padding-right: 15px;
     margin: 0 auto;
