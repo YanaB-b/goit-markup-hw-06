@@ -654,7 +654,7 @@ color: var(--secondary-text-color);
 
 }
 .footer-wrap{
-    margin-right: 93px;
+    margin-right: auto;
 }
 .footer-item{
     display: flex;
@@ -710,10 +710,12 @@ line-height: 1.88;
 color: #FFFFFF;
 background: #2196F3;
 
+position: relative;
 box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
 border-radius: 4px;
 transition: color 250ms cubic-bezier(0.4, 0, 0.2, 1), 
 background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+text-align: center;
 
 }
 .btn-footer:hover,
@@ -723,16 +725,14 @@ background-color: var(--acent-color);
 
 }
 
-.input-wrap{
-    position: relative;
-
-
-}
 .icon-btn{
+    display: flex;
 position: absolute;
 top: 50%;
+right: 28px;
+
 transform: translateY(-50%);
-right: 25px;
+
 fill: var(--background-color);
 
 
@@ -897,8 +897,8 @@ color: var(--ouwer-text-color);
 }
 
 .modal{
-    min-width: 528px;
-    min-height: 581px;
+    width: 528px;
+    height: 581px;
     background-color: var(--background-color);
     position: absolute;
     top: 50%;
@@ -951,15 +951,15 @@ margin-bottom: 12px;
 color: #212121;
 }
 .modal-input{
-    width: 100%;
-    height: 40px;
-    border: 1px solid rgba(33, 33, 33, 0.2);
-    border-radius: 4px;
-    margin-bottom: 10px;
-    padding-left: 42px;
-    outline: transparent;
-    cursor: pointer;
-    transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+width: 100%;
+height: 40px;
+border: 1px solid rgba(33, 33, 33, 0.2);
+border-radius: 4px;
+
+padding-left: 42px;
+outline: transparent;
+cursor: pointer;
+transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
     
 }
 .icon-modal-input{
@@ -976,19 +976,26 @@ border-color: var(--acent-color);
 fill: var(--acent-color);
  }
     
+.label-modal{
+    margin-bottom: 10px;
+    display: block;
+}
 .label-text{
 font-weight: 400;
 font-size: 12px;
-line-height: 1.67;
+line-height: 1.17;
 letter-spacing: 0.01em;
 color: #757575;
 display: block;
 margin-bottom: 4px;
+
 }
 .modal-icon{
     position: relative;
 }
-
+.coment-wrap{
+    margin-bottom: 20px;
+}
 .coment-text{
 width: 100%;
 height: 120px;
@@ -998,7 +1005,7 @@ resize: none;
 padding: 12px 16px;
 outline: transparent;
 cursor: pointer;
-margin-bottom: 20px;
+
 transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 
 
@@ -1062,7 +1069,7 @@ font-size: 14px;
 line-height: 1.71;
 letter-spacing: 0.03em;
 color: #2196F3;
-margin-left: 2px;
+margin-left: 5px;
 
 }
 .icon-check{

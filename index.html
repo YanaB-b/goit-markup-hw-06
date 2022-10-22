@@ -444,16 +444,18 @@
           <label for="email"></label>
             <input type="email" name="email" id="email" class="input-emeil" placeholder="E-mail">
            
-          <div class="input-wrap">
+         
          <button type="submit" class="btn-footer">
              Підписатися
+
+             <svg class="icon-btn" width="24" height="24">
+              <use href="./images/symbol-defs.svg#icon-send"></use>
+  
+    </svg>
     
          </button>
-            <svg class="icon-btn" width="24" height="24">
-            <use href="./images/symbol-defs.svg#icon-send"></use>
+     
 
-  </svg>
-</div>
             
 
           </form>
@@ -471,33 +473,33 @@
         </button>
         <p class="modal-text">Залиште свої дані, ми вам передзвонимо</p>
         <form >
-          <label><span class="label-text">Ім'я</span> 
+          <label class="label-modal"><span class="label-text">Ім'я</span> 
             <span class="modal-icon">
-              <input type="text" name="user-name" class="modal-input" placeholder=" ">
+              <input type="text" name="user-name" class="modal-input" placeholder=" " required>
               <svg class="icon-modal-input" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-person-modal"></use>
               </svg>
             </span>
           </label>
           
-          <label ><span class="label-text">Телефон</span> 
+          <label class="label-modal"><span class="label-text">Телефон</span> 
             <span class="modal-icon">
-              <input type="tel" name="tel"  class="modal-input" placeholder=" ">
+              <input type="tel" name="tel"  class="modal-input" placeholder=" " required>
               <svg class="icon-modal-input" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-phone-modal"></use>
               </svg>
             </span>
             
           </label>
-          <label><span class="label-text"> Пошта</span>
+          <label class="label-modal"><span class="label-text"> Пошта</span>
             <span class="modal-icon">
-              <input type="email" name="email" class="modal-input" placeholder=" ">
+              <input type="email" name="email" class="modal-input" placeholder=" " required>
               <svg class="icon-modal-input" width="18" height="18">
                 <use href="./images/symbol-defs.svg#icon-email-modal"></use>
               </svg>
               </span>
             </label>
-          <div>
+          <div class="coment-wrap">
             <label for="coment" class="label-text">Коментар
             </label>
             <textarea name="coment" id="coment" class="coment-text" placeholder="Введіть текст"></textarea>
